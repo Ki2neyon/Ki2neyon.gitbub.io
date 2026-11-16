@@ -1,0 +1,348 @@
+html {
+    scroll-padding-top: 80px;
+}
+
+body{
+    background-color: #071227;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0 80px; */
+    margin-left: 80px;
+    color: white;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #071227;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+nav a:hover {
+    color: aqua;
+    border-bottom: 3px solid aqua;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons a {
+    display: inline-block;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    background-color: #091631;;
+    justify-content: space-between;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-left {
+    width: 45%;
+    flex-direction: column;
+    margin-left: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+.hero-left p {
+    margin: 0;
+}
+
+.short {
+    border-left: 5px solid aqua;
+}
+
+.hero-left h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+.hero-image {
+    width: 530px;
+    flex-shrink: 0;
+    margin-right: 300px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.profile-button {
+    background-color: aqua;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 10px;
+    margin: 20px 0;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.profile-button:hover {
+    background-color: rgb(156, 255, 255);
+    cursor: pointer;
+}
+
+.works-button {
+    background-color: #091631;
+    border-radius: 10px;
+    border: 2px solid #facbfa;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.works-button:hover {
+    background-color: #1a3366;
+    cursor: pointer;
+}
+
+a img {
+    width: 30px;
+    height: auto;
+}
+
+.github {
+    margin-right: 25px;
+}
+
+.icon {
+    width: 200px;
+    height: auto;
+}
+
+.profile-flex {
+    display: flex;
+}
+
+.link-info {
+    filter: brightness(0) invert(1);
+}
+
+#works {
+    margin: 0 80px;
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+    border-left: 5px solid aqua;
+    margin: 80px auto 15px;
+    padding: 0 20px;
+}
+
+.card {
+    display: flex;
+    margin: 0 auto;
+}
+
+.card div{
+    background-color: #182a49;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 0 20px;
+    color: white;
+}
+
+.helloween {
+    display: block;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.moon {
+    display: block;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.portfolio-web {
+    display: block;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#skills {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.skills-image {
+    display: flex;
+    gap: 70px;
+}
+
+.skills-image img {
+    width: 60px;
+    height: auto;
+}
+
+.html-skill {
+    margin-left: 30px;
+}
+
+.skill-description {
+    border-left: 1px solid gray;
+    color: white;
+    display: block;
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+h4 {
+    color: white;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.skills-image span {
+    gap: 5px;
+    font-size: 20px;
+    color: #555;
+}
+
+.skills-image span.active {
+    color: gold;
+}
+
+.information {
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px
+}
+
+.information p {
+    color: white;
+    font-size: 20px
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a3366;
+    padding: 20px 30px;
+    margin: 40px 200px;
+    border-radius: 10px;
+    border: 1px solid aqua;
+    align-items: center;
+}
+
+.contact h4{
+    margin: 0 0 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contact p{
+    color: white;
+    margin: 0;
+}
+
+.contact-button {
+    background-color: aqua;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin: 0 80px;
+}
+
+
+
+
+
+
+.bubbles {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.bubble {
+    position: absolute;
+    bottom: -100px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+    background: radial-gradient(
+        circle at 30% 30%,
+        #ffffff40,
+        #64dcff14 60%,
+        #ff96ff26
+    );
+
+    box-shadow: inset 0 0 10px #ffffff33;
+
+    animation: float-up linear forwards;
+}
+
+.bubble::before {
+    content: "";
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 35%;
+    height: 18%;
+
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    transform: rotate(-40deg);
+    filter: blur(2px);
+}
+
+.bubble::after {
+    content: "";
+    position: absolute;
+    bottom: 15%;
+    right: 15%;
+    width: 20%;
+    height: 10%;
+
+    background: rgba(180, 230, 255, 0.5);
+    border-radius: 50%;
+    transform: rotate(-40deg);
+    filter: blur(3px);
+}
+
+@keyframes float-up {
+    from {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    15% {
+        opacity: 0.7;
+    }
+
+    85% {
+        opacity: 0.7;
+    }
+
+    to {
+        transform: translateY(-600px);
+        opacity: 0;
+    }
+}
